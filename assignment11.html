@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Employee Registration</title>
+  <link rel="stylesheet" href="assignment11.css">
+</head>
+
+<body>
+  <div class="form-container">
+    <h2>Employee Registration Form</h2>
+    <form action="#" method="post">
+      <label for="empName">Full Name:</label>
+      <input type="text" id="empName" name="empName" placeholder="Enter full name" required>
+
+      <label for="empId">Employee ID:</label>
+      <input type="text" id="empId" name="empId" placeholder="Enter employee ID" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+
+      <label for="department">Department:</label>
+      <select id="department" name="department" required>
+        <option value="">Select department</option>
+        <option value="HR">HR</option>
+        <option value="IT">IT</option>
+        <option value="Sales">Sales</option>
+        <option value="Finance">Finance</option>
+      </select>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" placeholder="Enter address" rows="3" required></textarea>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>

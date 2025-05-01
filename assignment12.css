@@ -1,0 +1,55 @@
+body {
+    background-color: blanchedalmond;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+.header {
+    background-color: beige;
+    font-weight: bold;
+}
+
+.day {
+    background-color: slategrey;
+    color: white;
+    font-weight: bold;
+}
+
+.break {
+    background-color: yellow;
+    font-size: large;
+    font-weight: bold;
+}
+
+.lab {
+    background-color: rgb(250, 85, 173);
+}
+
+.dept {
+    background-color: lightyellow;
+}
+
+.ll {
+    background-color: lightblue;
+}
